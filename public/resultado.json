@@ -1,0 +1,495 @@
+{
+    "Tolerancia": "10",
+    "Maquinas": [
+        {
+            "Maquina": 926,
+            "Programas": [
+                {
+                    "Programa": "77454994",
+                    "DescricaoItem": "LAMINA P/PA FRANKFURT",
+                    "QuantidadePecas": 30589,
+                    "PecasPorMinuto": 6.944,
+                    "DuracaoMin": 4436,
+                    "StartMin": 0,
+                    "EndMin": 4436
+                },
+                {
+                    "Programa": "77460998",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 3762,
+                    "PecasPorMinuto": 3.6200000000000006,
+                    "DuracaoMin": 1043,
+                    "StartMin": 4436,
+                    "EndMin": 5479
+                },
+                {
+                    "Programa": "77459995",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 389,
+                    "PecasPorMinuto": 4.736000000000001,
+                    "DuracaoMin": 83,
+                    "StartMin": 5479,
+                    "EndMin": 5562
+                }
+            ]
+        },
+        {
+            "Maquina": 1464,
+            "Programas": [
+                {
+                    "Programa": "77454994",
+                    "DescricaoItem": "LAMINA P/PA FRANKFURT",
+                    "QuantidadePecas": 13469,
+                    "PecasPorMinuto": 5.719130224641937,
+                    "DuracaoMin": 2358,
+                    "StartMin": 0,
+                    "EndMin": 2358
+                },
+                {
+                    "Programa": "77566992",
+                    "DescricaoItem": "LAMINA DA CAVADEIRA",
+                    "QuantidadePecas": 5242,
+                    "PecasPorMinuto": 2.976000000000001,
+                    "DuracaoMin": 1767,
+                    "StartMin": 2358,
+                    "EndMin": 4125
+                },
+                {
+                    "Programa": "77622998",
+                    "DescricaoItem": "LAMINA P/ FOICE RETA S/ PONTA",
+                    "QuantidadePecas": 943,
+                    "PecasPorMinuto": 11.786000000000001,
+                    "DuracaoMin": 81,
+                    "StartMin": 4125,
+                    "EndMin": 4206
+                },
+                {
+                    "Programa": "77416993",
+                    "DescricaoItem": "LAMINA DE BICO EXP.",
+                    "QuantidadePecas": 1959,
+                    "PecasPorMinuto": 3.1053333333333337,
+                    "DuracaoMin": 633,
+                    "StartMin": 4206,
+                    "EndMin": 4839
+                },
+                {
+                    "Programa": "77459995",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 392,
+                    "PecasPorMinuto": 1.456,
+                    "DuracaoMin": 270,
+                    "StartMin": 4839,
+                    "EndMin": 5109
+                },
+                {
+                    "Programa": "77635999",
+                    "DescricaoItem": "LAMINA DA ESTROVENGA",
+                    "QuantidadePecas": 1200,
+                    "PecasPorMinuto": 13.013333333333334,
+                    "DuracaoMin": 93,
+                    "StartMin": 5109,
+                    "EndMin": 5202
+                },
+                {
+                    "Programa": "77426999",
+                    "DescricaoItem": "LAMINA PA MEIA LUA 00",
+                    "QuantidadePecas": 555,
+                    "PecasPorMinuto": 4.422244081568596,
+                    "DuracaoMin": 126,
+                    "StartMin": 5202,
+                    "EndMin": 5328
+                },
+                {
+                    "Programa": "77682991",
+                    "DescricaoItem": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+                    "QuantidadePecas": 2086,
+                    "PecasPorMinuto": 8.893333333333333,
+                    "DuracaoMin": 236,
+                    "StartMin": 5328,
+                    "EndMin": 5564
+                }
+            ]
+        },
+        {
+            "Maquina": 1111,
+            "Programas": [
+                {
+                    "Programa": "77480995",
+                    "DescricaoItem": "LAMINA PA QUADRADA",
+                    "QuantidadePecas": 2095,
+                    "PecasPorMinuto": 4.2458909412503285,
+                    "DuracaoMin": 495,
+                    "StartMin": 0,
+                    "EndMin": 495
+                },
+                {
+                    "Programa": "77459996",
+                    "DescricaoItem": "LAMINA PA DE BICO 04",
+                    "QuantidadePecas": 22993,
+                    "PecasPorMinuto": 5.993994603800447,
+                    "DuracaoMin": 3840,
+                    "StartMin": 495,
+                    "EndMin": 4335
+                },
+                {
+                    "Programa": "77402995",
+                    "DescricaoItem": "LAMINA PA VANGA DE BICO",
+                    "QuantidadePecas": 2171,
+                    "PecasPorMinuto": 5.383397949543484,
+                    "DuracaoMin": 404,
+                    "StartMin": 4335,
+                    "EndMin": 4739
+                },
+                {
+                    "Programa": "77464995",
+                    "DescricaoItem": "LAMINA PA QUADRADA 04",
+                    "QuantidadePecas": 2230,
+                    "PecasPorMinuto": 5.175126379168487,
+                    "DuracaoMin": 433,
+                    "StartMin": 4739,
+                    "EndMin": 5172
+                },
+                {
+                    "Programa": "77154994",
+                    "DescricaoItem": "LAMINA EDGER THD",
+                    "QuantidadePecas": 3717,
+                    "PecasPorMinuto": 47.275555555555556,
+                    "DuracaoMin": 82,
+                    "StartMin": 5172,
+                    "EndMin": 5254
+                },
+                {
+                    "Programa": "77682993",
+                    "DescricaoItem": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+                    "QuantidadePecas": 2632,
+                    "PecasPorMinuto": 11.751111111111113,
+                    "DuracaoMin": 227,
+                    "StartMin": 5254,
+                    "EndMin": 5481
+                },
+                {
+                    "Programa": "77692996",
+                    "DescricaoItem": "LAMINA P/ FOICINHA SOJA CORTADA",
+                    "QuantidadePecas": 3864,
+                    "PecasPorMinuto": 48.08533333333334,
+                    "DuracaoMin": 82,
+                    "StartMin": 5481,
+                    "EndMin": 5563
+                }
+            ]
+        },
+        {
+            "Maquina": 1000,
+            "Programas": [
+                {
+                    "Programa": "77480995",
+                    "DescricaoItem": "LAMINA PA QUADRADA",
+                    "QuantidadePecas": 4253,
+                    "PecasPorMinuto": 4.5337258573837165,
+                    "DuracaoMin": 940,
+                    "StartMin": 0,
+                    "EndMin": 940
+                },
+                {
+                    "Programa": "77630998",
+                    "DescricaoItem": "LAMINA P/PODAO BANANEIRA",
+                    "QuantidadePecas": 353,
+                    "PecasPorMinuto": 5.729308908874215,
+                    "DuracaoMin": 62,
+                    "StartMin": 940,
+                    "EndMin": 1002
+                },
+                {
+                    "Programa": "77460997",
+                    "DescricaoItem": "LAMINA P/PA DE BICO 04",
+                    "QuantidadePecas": 1567,
+                    "PecasPorMinuto": 1.7733333333333334,
+                    "DuracaoMin": 884,
+                    "StartMin": 1002,
+                    "EndMin": 1886
+                },
+                {
+                    "Programa": "77402995",
+                    "DescricaoItem": "LAMINA PA VANGA DE BICO",
+                    "QuantidadePecas": 4177,
+                    "PecasPorMinuto": 5.2276729241124285,
+                    "DuracaoMin": 802,
+                    "StartMin": 1886,
+                    "EndMin": 2688
+                },
+                {
+                    "Programa": "77481999",
+                    "DescricaoItem": "LAMINA P/PA CARVOEIRA",
+                    "QuantidadePecas": 765,
+                    "PecasPorMinuto": 2.007711085490009,
+                    "DuracaoMin": 382,
+                    "StartMin": 2688,
+                    "EndMin": 3070
+                },
+                {
+                    "Programa": "77405998",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 1731,
+                    "PecasPorMinuto": 1.881019062178455,
+                    "DuracaoMin": 921,
+                    "StartMin": 3070,
+                    "EndMin": 3991
+                },
+                {
+                    "Programa": "77571998",
+                    "DescricaoItem": "LAMINA DA CAVADEIRA 1,6 MM",
+                    "QuantidadePecas": 4248,
+                    "PecasPorMinuto": 3.9055080932988906,
+                    "DuracaoMin": 1092,
+                    "StartMin": 3991,
+                    "EndMin": 5083
+                },
+                {
+                    "Programa": "77154994",
+                    "DescricaoItem": "LAMINA EDGER THD",
+                    "QuantidadePecas": 5083,
+                    "PecasPorMinuto": 47.275555555555556,
+                    "DuracaoMin": 112,
+                    "StartMin": 5083,
+                    "EndMin": 5195
+                },
+                {
+                    "Programa": "77682991",
+                    "DescricaoItem": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+                    "QuantidadePecas": 1410,
+                    "PecasPorMinuto": 14.699555555555555,
+                    "DuracaoMin": 98,
+                    "StartMin": 5195,
+                    "EndMin": 5293
+                },
+                {
+                    "Programa": "77682993",
+                    "DescricaoItem": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+                    "QuantidadePecas": 3128,
+                    "PecasPorMinuto": 11.751111111111113,
+                    "DuracaoMin": 270,
+                    "StartMin": 5293,
+                    "EndMin": 5563
+                }
+            ]
+        },
+        {
+            "Maquina": 1185,
+            "Programas": [
+                {
+                    "Programa": "77320993",
+                    "DescricaoItem": "OLHO MACHADO SOLDADO PESADO",
+                    "QuantidadePecas": 2560,
+                    "PecasPorMinuto": 4.575461691540955,
+                    "DuracaoMin": 561,
+                    "StartMin": 0,
+                    "EndMin": 561
+                },
+                {
+                    "Programa": "77460998",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 8778,
+                    "PecasPorMinuto": 2.8133333333333335,
+                    "DuracaoMin": 3125,
+                    "StartMin": 561,
+                    "EndMin": 3686
+                },
+                {
+                    "Programa": "77128986",
+                    "DescricaoItem": "LAMINA P/FORCADO 10D",
+                    "QuantidadePecas": 1091,
+                    "PecasPorMinuto": 0.582234950502204,
+                    "DuracaoMin": 1875,
+                    "StartMin": 3686,
+                    "EndMin": 5561
+                }
+            ]
+        },
+        {
+            "Maquina": 2400,
+            "Programas": [
+                {
+                    "Programa": "77459996",
+                    "DescricaoItem": "LAMINA PA DE BICO 04",
+                    "QuantidadePecas": 21551,
+                    "PecasPorMinuto": 8.44848037474642,
+                    "DuracaoMin": 2565,
+                    "StartMin": 0,
+                    "EndMin": 2565
+                },
+                {
+                    "Programa": "77460997",
+                    "DescricaoItem": "LAMINA P/PA DE BICO 04",
+                    "QuantidadePecas": 2297,
+                    "PecasPorMinuto": 5.893733351822254,
+                    "DuracaoMin": 391,
+                    "StartMin": 2565,
+                    "EndMin": 2956
+                },
+                {
+                    "Programa": "77470992",
+                    "DescricaoItem": "LAMINA PA DE BICO 02",
+                    "QuantidadePecas": 3861,
+                    "PecasPorMinuto": 8.387606239283132,
+                    "DuracaoMin": 464,
+                    "StartMin": 2956,
+                    "EndMin": 3420
+                },
+                {
+                    "Programa": "77481999",
+                    "DescricaoItem": "LAMINA P/PA CARVOEIRA",
+                    "QuantidadePecas": 1557,
+                    "PecasPorMinuto": 5.0511034616690385,
+                    "DuracaoMin": 309,
+                    "StartMin": 3420,
+                    "EndMin": 3729
+                },
+                {
+                    "Programa": "77444996",
+                    "DescricaoItem": "LAMINA P/PA JARDINEIRA 00",
+                    "QuantidadePecas": 3546,
+                    "PecasPorMinuto": 1.936,
+                    "DuracaoMin": 1834,
+                    "StartMin": 3729,
+                    "EndMin": 5563
+                }
+            ]
+        },
+        {
+            "Maquina": 2500,
+            "Programas": [
+                {
+                    "Programa": "77600994",
+                    "DescricaoItem": "LAMINA P/ FOICE ROCADEIRA",
+                    "QuantidadePecas": 24331,
+                    "PecasPorMinuto": 11.948000000000002,
+                    "DuracaoMin": 2044,
+                    "StartMin": 0,
+                    "EndMin": 2044
+                },
+                {
+                    "Programa": "77444996",
+                    "DescricaoItem": "LAMINA P/PA JARDINEIRA 00",
+                    "QuantidadePecas": 2394,
+                    "PecasPorMinuto": 2.4720000000000004,
+                    "DuracaoMin": 970,
+                    "StartMin": 2044,
+                    "EndMin": 3014
+                },
+                {
+                    "Programa": "77426999",
+                    "DescricaoItem": "LAMINA PA MEIA LUA 00",
+                    "QuantidadePecas": 601,
+                    "PecasPorMinuto": 2.0853333333333333,
+                    "DuracaoMin": 289,
+                    "StartMin": 3014,
+                    "EndMin": 3303
+                },
+                {
+                    "Programa": "77464995",
+                    "DescricaoItem": "LAMINA PA QUADRADA 04",
+                    "QuantidadePecas": 1103,
+                    "PecasPorMinuto": 1.6353333333333333,
+                    "DuracaoMin": 676,
+                    "StartMin": 3303,
+                    "EndMin": 3979
+                },
+                {
+                    "Programa": "77405998",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 1899,
+                    "PecasPorMinuto": 2.44,
+                    "DuracaoMin": 779,
+                    "StartMin": 3979,
+                    "EndMin": 4758
+                },
+                {
+                    "Programa": "77571998",
+                    "DescricaoItem": "LAMINA DA CAVADEIRA 1,6 MM",
+                    "QuantidadePecas": 1884,
+                    "PecasPorMinuto": 2.3426666666666667,
+                    "DuracaoMin": 805,
+                    "StartMin": 4758,
+                    "EndMin": 5563
+                }
+            ]
+        },
+        {
+            "Maquina": 1900,
+            "Programas": [
+                {
+                    "Programa": "77566992",
+                    "DescricaoItem": "LAMINA DA CAVADEIRA",
+                    "QuantidadePecas": 10958,
+                    "PecasPorMinuto": 12.563853057349698,
+                    "DuracaoMin": 877,
+                    "StartMin": 0,
+                    "EndMin": 877
+                },
+                {
+                    "Programa": "77622998",
+                    "DescricaoItem": "LAMINA P/ FOICE RETA S/ PONTA",
+                    "QuantidadePecas": 551,
+                    "PecasPorMinuto": 9.236636275052586,
+                    "DuracaoMin": 61,
+                    "StartMin": 877,
+                    "EndMin": 938
+                },
+                {
+                    "Programa": "77416993",
+                    "DescricaoItem": "LAMINA DE BICO EXP.",
+                    "QuantidadePecas": 965,
+                    "PecasPorMinuto": 3.4279296482417236,
+                    "DuracaoMin": 282,
+                    "StartMin": 938,
+                    "EndMin": 1220
+                },
+                {
+                    "Programa": "77630998",
+                    "DescricaoItem": "LAMINA P/PODAO BANANEIRA",
+                    "QuantidadePecas": 583,
+                    "PecasPorMinuto": 8.281211915240213,
+                    "DuracaoMin": 71,
+                    "StartMin": 1220,
+                    "EndMin": 1291
+                },
+                {
+                    "Programa": "77568999",
+                    "DescricaoItem": "LAMINA DA CAVADEIRA",
+                    "QuantidadePecas": 27060,
+                    "PecasPorMinuto": 11.183739852579498,
+                    "DuracaoMin": 2436,
+                    "StartMin": 1291,
+                    "EndMin": 3727
+                },
+                {
+                    "Programa": "77600994",
+                    "DescricaoItem": "LAMINA P/ FOICE ROCADEIRA",
+                    "QuantidadePecas": 10817,
+                    "PecasPorMinuto": 7.760832399426388,
+                    "DuracaoMin": 1396,
+                    "StartMin": 3727,
+                    "EndMin": 5123
+                },
+                {
+                    "Programa": "77459995",
+                    "DescricaoItem": "LAMINA PA DE BICO 03",
+                    "QuantidadePecas": 515,
+                    "PecasPorMinuto": 1.456,
+                    "DuracaoMin": 354,
+                    "StartMin": 5123,
+                    "EndMin": 5477
+                },
+                {
+                    "Programa": "77128986",
+                    "DescricaoItem": "LAMINA P/FORCADO 10D",
+                    "QuantidadePecas": 2539,
+                    "PecasPorMinuto": 29.75866666666667,
+                    "DuracaoMin": 87,
+                    "StartMin": 5477,
+                    "EndMin": 5564
+                }
+            ]
+        }
+    ]
+}
