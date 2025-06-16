@@ -49,6 +49,8 @@ export default function Home() {
     setProgramas(prev => prev.some(p => p.Programa === prog) ? prev : [...prev, novo])
   }
 
+  console.log("teste")
+
   const handleEficienciaChange = (prog: string, maq: number, val: string) => {
     const nova = parseFloat(val) || 0
     setProgramas(prev => prev.map(p => {
