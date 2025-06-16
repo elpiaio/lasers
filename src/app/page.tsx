@@ -1,53 +1,66 @@
-// app/page.tsx
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { SelectProgramaInput } from "@/components/SelectProgramaInput"
 
-import { programasDisponiveis } from '../data/programasData';
-
-type MaquinaEficiencia = {
+type MaquinaTempo = {
   Maquina: number
-  Eficiencia: number
+  Tempo: number
+}
+
+type ProgramaItem = {
+  Programa: string
+  item: string
+  descricaoMaterial: string
+  QuantidadePecasPai: number
+  Maquinas: {
+    CodigoMaquina: number
+    TempoCorteMinutosProgramado: number
+  }[]
 }
 
 type ProgramaData = {
   programa: string
-  maquinasComEficienciaManual: MaquinaEficiencia[]
+  maquinas: MaquinaTempo[]
 }
 
 export default function Home() {
   const [programaAtual, setProgramaAtual] = useState<string>("")
   const [maquina, setMaquina] = useState<string>("")
-  const [eficiencia, setEficiencia] = useState<string>("")
+  const [tempo, setTempo] = useState<string>("")
   const [programas, setProgramas] = useState<ProgramaData[]>([])
+  const [programasDisponiveis, setProgramasDisponiveis] = useState<ProgramaItem[]>([])
+
+  useEffect(() => {
+    fetch("/search.json")
+      .then(res => res.json())
+      .then((data: ProgramaItem[]) => setProgramasDisponiveis(data))
+      .catch(err => console.error("Erro ao carregar search.json:", err))
+  }, [])
 
   const adicionarMaquina = () => {
-    if (!programaAtual || !maquina || !eficiencia) return
+    if (!programaAtual || !maquina || !tempo) return
 
-    const novaMaquina: MaquinaEficiencia = {
+    const novaMaquina: MaquinaTempo = {
       Maquina: parseInt(maquina),
-      Eficiencia: parseFloat(eficiencia)
+      Tempo: parseFloat(tempo)
     }
 
     setProgramas(prev => {
       const index = prev.findIndex(p => p.programa === programaAtual)
       if (index !== -1) {
         const atualizado = [...prev]
-        atualizado[index].maquinasComEficienciaManual.push(novaMaquina)
+        atualizado[index].maquinas.push(novaMaquina)
         return atualizado
       }
-      return [...prev, {
-        programa: programaAtual,
-        maquinasComEficienciaManual: [novaMaquina]
-      }]
+      return [...prev, { programa: programaAtual, maquinas: [novaMaquina] }]
     })
 
     setMaquina("")
-    setEficiencia("")
+    setTempo("")
   }
 
   return (
@@ -58,31 +71,43 @@ export default function Home() {
         <SelectProgramaInput
           programasDisponiveis={programasDisponiveis}
           onSelect={(programaSelecionado) => {
-            const programaEncontrado = programasDisponiveis.find(p => p.programa === programaSelecionado)
-
+            const programaEncontrado = programasDisponiveis.find(
+              p => p.Programa === programaSelecionado
+            )
             if (!programaEncontrado) return
 
-            // Atualiza o state com os dados das máquinas automaticamente
+            setProgramaAtual(programaEncontrado.Programa)
+
             setProgramas(prev => {
-              const jaExiste = prev.find(p => p.programa === programaEncontrado.programa)
-              if (jaExiste) return prev // evita duplicatas
+              const jaExiste = prev.find(p => p.programa === programaEncontrado.Programa)
+              if (jaExiste) return prev
+
+              const maquinasIniciais = programaEncontrado.Maquinas.map(m => ({
+                Maquina: m.CodigoMaquina,
+                Tempo: m.TempoCorteMinutosProgramado
+              }))
 
               return [
                 ...prev,
-                {
-                  programa: programaEncontrado.programa,
-                  maquinasComEficienciaManual: programaEncontrado.Maquinas.map(m => ({
-                    Maquina: m.Maquina,
-                    Eficiencia: m.Eficiencia
-                  }))
-                }
+                { programa: programaEncontrado.Programa, maquinas: maquinasIniciais }
               ]
             })
           }}
         />
 
-
-        <Button onClick={adicionarMaquina}>Adicionar</Button>
+        <div className="flex items-center space-x-2">
+          <Input
+            placeholder="Máquina (código)"
+            value={maquina}
+            onChange={e => setMaquina(e.target.value)}
+          />
+          <Input
+            placeholder="Tempo (minutos)"
+            value={tempo}
+            onChange={e => setTempo(e.target.value)}
+          />
+          <Button onClick={adicionarMaquina}>Adicionar</Button>
+        </div>
       </Card>
 
       <section className="space-y-4">
@@ -91,9 +116,9 @@ export default function Home() {
           <Card key={idx} className="p-4">
             <h3 className="font-semibold">Programa: {p.programa}</h3>
             <ul className="pl-4 list-disc">
-              {p.maquinasComEficienciaManual.map((m, i) => (
+              {p.maquinas.map((m, i) => (
                 <li key={i}>
-                  Máquina {m.Maquina} - Eficiência: {m.Eficiencia}%
+                  Máquina {m.Maquina} - Tempo: {m.Tempo.toFixed(3)} min
                 </li>
               ))}
             </ul>

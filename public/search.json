@@ -1,0 +1,734 @@
+[
+    {
+        "Programa": "77416993",
+        "item": "LAMINA DE BICO EXP.",
+        "descricaoMaterial": "LAMINA DE BICO EXP.",
+        "QuantidadePecasPai": 34,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 3.532875
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 4.534005
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 4.534005
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 8.759124
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 8.910891
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 6.26087
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 9.574468
+            }
+        ]
+    },
+    {
+        "Programa": "77692996",
+        "item": "LAMINA P/ FOICINHA SOJA CORTADA",
+        "descricaoMaterial": "LAMINA P/ FOICINHA SOJA CORTADA",
+        "QuantidadePecasPai": 184,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 3.061224
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 3.061224
+            }
+        ]
+    },
+    {
+        "Programa": "77566992",
+        "item": "LAMINA DA CAVADEIRA",
+        "descricaoMaterial": "LAMINA DA CAVADEIRA",
+        "QuantidadePecasPai": 54,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 4.609475
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 6.509946
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 6.509946
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 14.516129
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 16.216216
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 17.307692
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 13.636364
+            }
+        ]
+    },
+    {
+        "Programa": "77622998",
+        "item": "LAMINA P/ FOICE RETA S/ PONTA",
+        "descricaoMaterial": "LAMINA P/ FOICE RETA S/ PONTA",
+        "QuantidadePecasPai": 83,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 5.633803
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 7.578947
+            }
+        ]
+    },
+    {
+        "Programa": "77464995",
+        "item": "LAMINA PA QUADRADA 04",
+        "descricaoMaterial": "LAMINA PA QUADRADA 04",
+        "QuantidadePecasPai": 33,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 12.811388
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 12.811388
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 16.143498
+            }
+        ]
+    },
+    {
+        "Programa": "77470992",
+        "item": "LAMINA PA DE BICO 02",
+        "descricaoMaterial": "LAMINA PA DE BICO 02",
+        "QuantidadePecasPai": 39,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 12.676056
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 12.676056
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 17.821782
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 18.181818
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 15.584416
+            }
+        ]
+    },
+    {
+        "Programa": "77480995",
+        "item": "LAMINA PA QUADRADA",
+        "descricaoMaterial": "LAMINA PA QUADRADA",
+        "QuantidadePecasPai": 46,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 10.495627
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 10.495627
+            }
+        ]
+    },
+    {
+        "Programa": "77682993",
+        "item": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+        "descricaoMaterial": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+        "QuantidadePecasPai": 80,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 5.446293
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 5.446293
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 9.278351
+            }
+        ]
+    },
+    {
+        "Programa": "77154994",
+        "item": "LAMINA EDGER THD",
+        "descricaoMaterial": "LAMINA EDGER THD",
+        "QuantidadePecasPai": 110,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 1.861427
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 1.861427
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 3.056027
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 3.703704
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 3.305785
+            }
+        ]
+    },
+    {
+        "Programa": "77405998",
+        "item": "LAMINA PA DE BICO 03",
+        "descricaoMaterial": "LAMINA PA DE BICO 03",
+        "QuantidadePecasPai": 30,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 4.681404
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 4.681404
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 7.982262
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 4.904632
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 9.836066
+            }
+        ]
+    },
+    {
+        "Programa": "77635999",
+        "item": "LAMINA DA ESTROVENGA",
+        "descricaoMaterial": "LAMINA DA ESTROVENGA",
+        "QuantidadePecasPai": 120,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 7.377049
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 8.866995
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 9.113924
+            }
+        ]
+    },
+    {
+        "Programa": "77600994",
+        "item": "LAMINA P/ FOICE ROCADEIRA",
+        "descricaoMaterial": "LAMINA P/ FOICE ROCADEIRA",
+        "QuantidadePecasPai": 87,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 2.549575
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 4.819277
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 6.349206
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 4.65718
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 5.825243
+            }
+        ]
+    },
+    {
+        "Programa": "77460997",
+        "item": "LAMINA P/PA DE BICO 04",
+        "descricaoMaterial": "LAMINA P/PA DE BICO 04",
+        "QuantidadePecasPai": 28,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 12.631579
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 12.631579
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 19.148936
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 13.533835
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 16.0
+            }
+        ]
+    },
+    {
+        "Programa": "77402995",
+        "item": "LAMINA PA VANGA DE BICO",
+        "descricaoMaterial": "LAMINA PA VANGA DE BICO",
+        "QuantidadePecasPai": 46,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 10.315186
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 10.315186
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 15.189873
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 14.342629
+            }
+        ]
+    },
+    {
+        "Programa": "77460998",
+        "item": "LAMINA PA DE BICO 03",
+        "descricaoMaterial": "LAMINA PA DE BICO 03",
+        "QuantidadePecasPai": 30,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 6.629834
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 9.703504
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 9.703504
+            },
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 8.530806
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 20.454545
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 12.676056
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 17.142857
+            }
+        ]
+    },
+    {
+        "Programa": "77444996",
+        "item": "LAMINA P/PA JARDINEIRA 00",
+        "descricaoMaterial": "LAMINA P/PA JARDINEIRA 00",
+        "QuantidadePecasPai": 36,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 5.084746
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 5.084746
+            },
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 2.144133
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 7.594937
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 14.876033
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 11.650485
+            }
+        ]
+    },
+    {
+        "Programa": "77128986",
+        "item": "LAMINA P/FORCADO 10D",
+        "descricaoMaterial": "LAMINA P/FORCADO 10D",
+        "QuantidadePecasPai": 66,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 0.695115
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 0.707547
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 1.774273
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 1.691729
+            }
+        ]
+    },
+    {
+        "Programa": "77320993",
+        "item": "OLHO MACHADO SOLDADO PESADO",
+        "descricaoMaterial": "OLHO MACHADO SOLDADO PESADO",
+        "QuantidadePecasPai": 320,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 1.310521
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 1.565898
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 2.254227
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 1.39265
+            }
+        ]
+    },
+    {
+        "Programa": "77682991",
+        "item": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+        "descricaoMaterial": "LAMINA DA FOICINHA PARA PASTO CORTADA",
+        "QuantidadePecasPai": 92,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 5.006954
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 5.006954
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 8.275862
+            }
+        ]
+    },
+    {
+        "Programa": "77459996",
+        "item": "LAMINA PA DE BICO 04",
+        "descricaoMaterial": "LAMINA PA DE BICO 04",
+        "QuantidadePecasPai": 32,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 7.515658
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 13.899614
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 13.899614
+            },
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 17.307692
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 22.08589
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 17.22488
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 17.142857
+            }
+        ]
+    },
+    {
+        "Programa": "77571998",
+        "item": "LAMINA DA CAVADEIRA 1,6 MM",
+        "descricaoMaterial": "LAMINA DA CAVADEIRA 1,6 MM",
+        "QuantidadePecasPai": 42,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 6.792453
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 6.792453
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 17.142857
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 18.556701
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 14.342629
+            }
+        ]
+    },
+    {
+        "Programa": "77454994",
+        "item": "LAMINA P/PA FRANKFURT",
+        "descricaoMaterial": "LAMINA P/PA FRANKFURT",
+        "QuantidadePecasPai": 42,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 4.83871
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 10.495627
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 10.495627
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 8.695652
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 11.145511
+            }
+        ]
+    },
+    {
+        "Programa": "77481999",
+        "item": "LAMINA P/PA CARVOEIRA",
+        "descricaoMaterial": "LAMINA P/PA CARVOEIRA",
+        "QuantidadePecasPai": 18,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 9.090909
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 9.090909
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 20.224719
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 22.929936
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 15.517241
+            }
+        ]
+    },
+    {
+        "Programa": "77630998",
+        "item": "LAMINA P/PODAO BANANEIRA",
+        "descricaoMaterial": "LAMINA P/PODAO BANANEIRA",
+        "QuantidadePecasPai": 156,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 2.34375
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 2.34375
+            },
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 2.505219
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 4.522613
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 6.83112
+            }
+        ]
+    },
+    {
+        "Programa": "77568999",
+        "item": "LAMINA DA CAVADEIRA",
+        "descricaoMaterial": "LAMINA DA CAVADEIRA",
+        "QuantidadePecasPai": 66,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 4.864865
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 7.228916
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 7.228916
+            },
+            {
+                "CodigoMaquina": 1185,
+                "TempoCorteMinutosProgramado": 11.881188
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 18.947368
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 22.08589
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 21.052632
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 13.483146
+            }
+        ]
+    },
+    {
+        "Programa": "77426999",
+        "item": "LAMINA PA MEIA LUA 00",
+        "descricaoMaterial": "LAMINA PA MEIA LUA 00",
+        "QuantidadePecasPai": 34,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 11.009174
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 11.009174
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 17.391304
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 19.354839
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 13.043478
+            }
+        ]
+    },
+    {
+        "Programa": "77459995",
+        "item": "LAMINA PA DE BICO 03",
+        "descricaoMaterial": "LAMINA PA DE BICO 03",
+        "QuantidadePecasPai": 36,
+        "Maquinas": [
+            {
+                "CodigoMaquina": 926,
+                "TempoCorteMinutosProgramado": 6.081081
+            },
+            {
+                "CodigoMaquina": 1000,
+                "TempoCorteMinutosProgramado": 12.857143
+            },
+            {
+                "CodigoMaquina": 1111,
+                "TempoCorteMinutosProgramado": 12.857143
+            },
+            {
+                "CodigoMaquina": 1464,
+                "TempoCorteMinutosProgramado": 19.78022
+            },
+            {
+                "CodigoMaquina": 1900,
+                "TempoCorteMinutosProgramado": 19.78022
+            },
+            {
+                "CodigoMaquina": 2400,
+                "TempoCorteMinutosProgramado": 14.814815
+            },
+            {
+                "CodigoMaquina": 2500,
+                "TempoCorteMinutosProgramado": 16.071429
+            }
+        ]
+    }
+]
