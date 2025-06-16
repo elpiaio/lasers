@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { Card } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
 
 interface ResultadoPrograma {
   Programa: string
@@ -33,26 +34,48 @@ export default function ResultadoPage() {
       .catch(err => console.error('Erro ao carregar resultado.json:', err))
   }, [])
 
-  if (!resultado) return <p>Carregando...</p>
+  if (!resultado) return <p className="text-center py-10">Carregando...</p>
 
   return (
-    <main className="max-w-4xl mx-auto p-6 space-y-6">
-      <h2 className="text-2xl font-bold">Resultado da Otimização</h2>
-      <p>Tolerância: {resultado.Tolerancia}%</p>
-      <div className="space-y-4">
+    <main className="max-w-5xl mx-auto p-8 space-y-8">
+      <header className="flex items-center justify-between">
+        <h2 className="text-3xl font-extrabold">Resultado da Otimização</h2>
+        <Badge variant="secondary" className="text-lg">
+          Tolerância: {resultado.Tolerancia}%
+        </Badge>
+      </header>
+
+      <div className="space-y-6">
         {resultado.Maquinas.map((m, idx) => (
-          <Card key={idx} className="p-4 space-y-2">
-            <h3 className="font-semibold">Máquina {m.Maquina}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Card key={idx} className="overflow-hidden border border-gray-200 shadow-lg">
+            <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-4">
+              <h3 className="text-xl font-semibold text-white">
+                Máquina {m.Maquina}
+              </h3>
+            </div>
+            <div className="p-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {m.Programas.map((prog, i) => (
-                <Card key={i} className="p-3 bg-white rounded-lg shadow">
-                  <h4 className="font-medium">{prog.Programa}</h4>
-                  <p className="text-sm">{prog.DescricaoItem}</p>
-                  <p className="text-sm">Qtd: {prog.QuantidadePecas}</p>
-                  <p className="text-sm">Pçs/Min: {prog.PecasPorMinuto.toFixed(3)}</p>
-                  <p className="text-sm">Duração: {prog.DuracaoMin} min</p>
-                  <p className="text-sm">Start: {prog.StartMin}</p>
-                  <p className="text-sm">End: {prog.EndMin}</p>
+                <Card
+                  key={i}
+                  className="transform transition hover:scale-105 hover:shadow-xl p-4 bg-white rounded-2xl border border-gray-100"
+                >
+                  <h4 className="font-semibold text-lg mb-1">{prog.Programa}</h4>
+                  <p className="text-sm text-gray-600 mb-2 truncate">
+                    {prog.DescricaoItem}
+                  </p>
+                  <div className="flex flex-wrap gap-2 text-sm">
+                    <Badge variant="outline">Qtd: {prog.QuantidadePecas}</Badge>
+                    <Badge variant="outline">
+                      Pçs/Min: {prog.PecasPorMinuto.toFixed(3)}
+                    </Badge>
+                    <Badge variant="outline">
+                      Duração: {prog.DuracaoMin} min
+                    </Badge>
+                  </div>
+                  <div className="mt-4 flex justify-between text-xs text-gray-500">
+                    <span>Start: {prog.StartMin} min</span>
+                    <span>End: {prog.EndMin} min</span>
+                  </div>
                 </Card>
               ))}
             </div>
