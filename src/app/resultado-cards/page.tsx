@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { StatsDialog } from '@/components/StatsDialog'
+import { Button } from '@/components/ui/button'
+import { Table } from 'lucide-react'
 
 interface ResultadoPrograma {
   Programa: string
@@ -28,6 +30,8 @@ interface Resultado {
 export default function ResultadoPage() {
   const [resultado, setResultado] = useState<Resultado | null>(null)
 
+  const handleOpenTable = () => window.open('/resultado', '_blank')
+
   useEffect(() => {
     fetch('/resultado.json')
       .then(res => res.json())
@@ -44,7 +48,12 @@ export default function ResultadoPage() {
         <Badge variant="secondary" className="text-lg">
           Tolerância: {resultado.Tolerancia}%
         </Badge>
-        <StatsDialog machines={resultado.Maquinas} />
+        <div className="flex items-center gap-1">
+          <Button onClick={handleOpenTable} variant="outline" size="icon" className="p-2 cursor-pointer">
+            <Table className="h-4 w-4" />
+          </Button>
+          <StatsDialog machines={resultado.Maquinas} />
+        </div>
       </header>
 
       <div className="space-y-6">

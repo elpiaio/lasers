@@ -84,7 +84,7 @@ export function StatsDialog({ machines }: StatsDialogProps) {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button variant="outline">Estatísticas!</Button>
+                <Button variant="outline" className='cursor-pointer'>Estatísticas!</Button>
             </DialogTrigger>
             <DialogPortal>
                 <DialogOverlay className="fixed inset-0 bg-black/50 z-40" />
@@ -98,8 +98,13 @@ export function StatsDialog({ machines }: StatsDialogProps) {
                         </DialogDescription>
                     </DialogHeader>
 
+                    <div className='w-full mt-4 flex items-center justify-center'>
+                        <DialogTitle>Final da Produção:  {((maxTempo / 60) / 24).toFixed(1)} Dias</DialogTitle>
+                    </div>
+                    
+
                     {/* Fixed height container for chart */}
-                    <div className="mt-4 mb-4" style={{ height: `${machines.length * 60 + 100}px`, minHeight: '300px' }}>
+                    <div className="mt-1 mb-4" style={{ height: `${machines.length * 60 + 100}px`, minHeight: '300px' }}>
                         <ResponsiveContainer width="100%" height="100%">
                             <BarChart
                                 layout="vertical"
