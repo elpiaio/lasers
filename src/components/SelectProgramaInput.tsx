@@ -22,7 +22,7 @@ export function SelectProgramaInput({ programasDisponiveis, onSelect }: Props) {
         <CommandList>
           <CommandEmpty>Nenhum programa encontrado.</CommandEmpty>
           {programasDisponiveis.map((p, idx) => (
-            <CommandItem key={idx} onSelect={() => onSelect(p.Programa)}>
+            <CommandItem key={idx} className="cursor-pointer" onSelect={() => onSelect(p.Programa)}>
               {`${p.Programa} – ${p.descricaoMaterial}`}
             </CommandItem>
           ))}

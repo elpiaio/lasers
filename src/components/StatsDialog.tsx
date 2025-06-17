@@ -1,6 +1,4 @@
-// components/StatsDialog.tsx
-
-'use client'
+"use client"
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
@@ -55,6 +53,7 @@ export function StatsDialog({ machines }: StatsDialogProps) {
     const maxTempo = Math.max(...chartData.map(d => d.dummy))
     const avgTempo = chartData.reduce((acc, d) => acc + d.dummy, 0) / chartData.length
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const renderSegments = (props: any) => {
         const { x, y, width, height, payload } = props
         const scale = width / maxTempo
