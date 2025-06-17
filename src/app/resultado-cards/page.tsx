@@ -1,8 +1,9 @@
-"use client"
+'use client'
 
 import { useEffect, useState } from 'react'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { StatsDialog } from '@/components/StatsDialog'
 
 interface ResultadoPrograma {
   Programa: string
@@ -43,13 +44,14 @@ export default function ResultadoPage() {
         <Badge variant="secondary" className="text-lg">
           Tolerância: {resultado.Tolerancia}%
         </Badge>
+        <StatsDialog machines={resultado.Maquinas} />
       </header>
 
       <div className="space-y-6">
         {resultado.Maquinas.map((m, idx) => (
           <Card key={idx} className="overflow-hidden border border-gray-200 shadow-lg">
-            <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-4">
-              <h3 className="text-xl font-semibold text-white">
+            <div className="bg-gradient-to-r ml-4">
+              <h3 className="text-xl font-semibold text-black">
                 Máquina {m.Maquina}
               </h3>
             </div>

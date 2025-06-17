@@ -67,7 +67,7 @@ export default function Home() {
   // Handler do botão Otimizar
   const handleOtimizar = () => {
     // Para já, navega para página de resultado
-    router.push('/resultado')
+    router.push('/resultado-cards')
   }
 
   return (

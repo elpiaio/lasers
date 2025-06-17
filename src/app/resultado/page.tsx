@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react'
 import { Card } from '@/components/ui/card'
-import { DataTable } from '@/components/ui/data-table' // supondo componente de tabela
 
 interface ResultadoPrograma {
   Programa: string
